@@ -1,0 +1,19 @@
+
+@font-face {
+	font-family: 'futurafuturisc';
+	src: url('../fonts/FuturisC-Bold.eot');
+	src: url('../fonts/FuturisC-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/FuturisC-Bold.woff') format('woff'),
+		 url('../fonts/FuturisC-Bold.ttf') format('truetype'),
+		 url('../fonts/FuturisC-Bold.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'OpenSansCondensed';
+	src: url('../fonts/OpenSansCondensed-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 300;
+}
+

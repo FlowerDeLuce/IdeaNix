@@ -1,0 +1,238 @@
+
+body{
+    overflow-x: hidden;    
+}
+
+.home{
+    background-color: #000;
+    background-image: url(../img/words1.png), url(../img/home__textbg.jpg);
+    min-height: 82.6vw;
+    background-size: 100%, 100%;
+    background-position: center 86%, top center; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.home:after{
+    content:'';
+    position: absolute;
+    display: block;
+    width: 34vw;
+    height: 34vw;
+    background: url(../img/Form.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+    right: -9%;
+    top: 50vw;
+}
+
+
+.inner-container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 30px 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    a:hover{
+        text-decoration: none;
+       
+    }
+}
+
+.header__logo-img{
+    width: 120px;
+    height: 60px;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 6px;
+}
+
+.header__tel, .header__lang{
+    font-family: 'OpenSansCondensed', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+
+.header__tel:hover, .header__lang:hover, .header__lang:focus, .header__tel:focus{
+    color: #bfd730;
+    text-decoration: none;
+}
+
+.header__lang{
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.lang_dropdown-list{
+    position: absolute;
+    list-style-type: none;
+    background: rgba(0, 0, 0, .8);
+    top: 35px;
+    right: 0;
+    display: none;
+    z-index: 99;
+}
+
+.lang_dropdown-link{
+    font-family: 'OpenSansCondensed', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 2px;
+    display: block;
+}
+
+.lang_dropdown-link:hover{
+    color: #bfd730;
+}
+
+.home__heading{
+    font-size: 55px;
+    font-family: 'futurafuturisc', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.home__heading_top{
+    display: block;
+    font-size: 100px;
+    color: #BFD730;
+    padding-bottom: 100px;
+}
+
+.home__main{
+    position: relative;
+}
+
+
+
+
+.home__main-menu{
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 72px;
+    padding: 7px;
+}
+
+.main-menu-icon{
+    
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+.home__main-menu_dropdown{
+    display: block;
+    opacity: 0;
+    max-width: 170px;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    transition: all 0.5s;
+    -webkit-transform: translateX(-70px);
+    -moz-transform: translateX(-70px);
+    -ms-transform: translateX(-70px);
+    -o-transform: translateX(-70px);
+    transform: translateX(-70px);
+    pointer-events: none;
+}
+
+.home__main-menu_dropdown.open{
+    display: block;
+    width: 170px; 
+    opacity: 1;
+    left: 70px;
+    transition: all 0.5s;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+    pointer-events: all;
+}
+
+.main-menu-item{
+    border-bottom: 1px solid #414045;
+    &:last-child{
+        border: none;
+    }
+}
+
+
+
+.main-menu-link{
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #000;
+    font-size: 18px;
+    font-family: 'futurafuturisc', sans-serif;
+    display: block;
+    &:hover{
+        color: #BFD730;
+        text-decoration: none;
+    }
+}
+
+.home__social-icons-list{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.social-icons-item{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.social-icons-link{
+    color: #fff;
+}
+
+.social-icons-link:hover, .social-icons-link:focus {
+    color: #BFD730;
+}
+
+.home__social-icon{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+.single-project__header{
+    padding: 20px 350px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.single-services__header{
+    padding: 20px 350px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    
+}
+
+.header__tel_grey, .header__lang_grey{
+    color: #86878e;
+}
+
+
+
